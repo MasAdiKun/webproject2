@@ -26,7 +26,7 @@ public class DramaDao {
     public void addDrama(DramaModel model){
         try{
             String addDrama = "insert into catalog(title,trailer,preview,type,act,year,genres,episodes,description) "
-                    + "values(?,?,?,?,?,?,?,?)";
+                    + "values(?,?,?,?,?,?,?,?,?)";
             PreparedStatement ps = conn.prepareStatement(addDrama);
             ps.setString(1, model.getTitle());
             ps.setString(2, model.getLink());
