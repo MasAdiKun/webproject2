@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.title{
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/kdrama/SW.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+.form{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: 10% auto;
+	background: white;
+	padding: 5px;
+	overflow: hidden;
+}
+.button-box{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #FFE4E1;
+	border-radius: 30px;
+}
+.toggle-btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right,#F08080,#FFA07A);
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-form{
+	top: 125px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right,#F08080,#FFA07A);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+#login #username_val,
+#login #pass_val {
+	background-color: rgba(207, 74, 53, 0.571);
+	text-align: center;
+	color: white;
+	font-size: 90%;
+	margin: 1px;
+	padding: 1px;
+	display: none;
+}
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+
+#login #question{
+	text-align: center;
+	margin: 1px;
+	padding: 15px;
+	font-size: 13px;
+}
+#question a{
+	color: #777;
+	text-decoration: none;
+}
+#question a:hover{
+	color: #F08080;
+	transition: .6 ease;
+
+}
+span{
+	color: #777;
+	font-size: 12px;
+	bottom: 68px;
+	position: block;
+}
+#login{
+	left: 50px;
+}
+
+#register{
+	left: 450px;	
+}
